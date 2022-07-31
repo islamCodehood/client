@@ -1,4 +1,4 @@
-export const getAllPosts = (posts: []) => {
+export const getPosts = (posts: []) => {
   return {
     type: 'GET_POSTS',
     payload: posts
